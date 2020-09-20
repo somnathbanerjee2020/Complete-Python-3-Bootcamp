@@ -32,6 +32,7 @@ print(list(map(lambda j: j**2, myList)))
 
 print(list(filter(lambda x: x%2 == 0,myList)))
 """
+"""
 
 s = 'Hello Mr. Rogers, how are you this fine Tuesday?'
 
@@ -49,3 +50,10 @@ for j in ct:
 
 print(f'Uppercase count = {upCt}')
 print(f'Lowercase count = {lowCt}')
+"""
+
+
+class Cone():
+    pi = math.pi
+    
+    def __init__ (self, radius = 10)
