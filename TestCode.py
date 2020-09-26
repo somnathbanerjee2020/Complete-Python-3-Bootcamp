@@ -51,9 +51,3 @@ for j in ct:
 print(f'Uppercase count = {upCt}')
 print(f'Lowercase count = {lowCt}')
 """
-
-
-class Cone():
-    pi = math.pi
-    
-    def __init__ (self, radius = 10)
