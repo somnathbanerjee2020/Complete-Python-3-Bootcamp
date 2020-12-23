@@ -7,7 +7,8 @@ ranks = ('Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten',
 values = {'Two':2, 'Three':3, 'Four':4, 'Five':5, 'Six':6, 'Seven':7, 'Eight':8,'Nine':9, 'Ten':10, 'Jack':11, 'Queen':12, 'King':13, 'Ace':14}
 
 class Card:
-
+"""Creates a card object which has a suit and value
+"""
     def __init__(self,suit,rank):
         self.suit = suit
         self.rank = rank
@@ -18,33 +19,46 @@ class Card:
 
 
 class Deck:
+"""Creates a deck of 52 cards. Can shuffle and deal a card too
+"""
 
-    def __init__(self,suits,ranks):
-        self.suits = suits
-        self.ranks = ranks
+    def __init__(self):
+        self.all_cards= []
+        
+        for suit in suits:
+            for rank in ranks:
+                created_card = Card(suit, rank)
+                self.all_cards.append(created_card)
+
+    def shuffle(self):
+        random.shuffle(self.all_cards)
+
+    def deal_one(self):
+        return self.all_cards.pop()
+
+class Player:
+
+    def __init__ (self, name):
+
+        self.name = name
+        self.all_cards = []
+
+        def remove_one(self):
+            return self.all_cards.pop(0)
+
+        def add_cards(self, new_cards):
+            pass
+
+        def __str__(self):
+            return f'Player {self.name} has {len(se)}'
 
 
 
-    def build_deck(suits, ranks):
-        full_deck=[]
-        for i in suits:
-            for j in ranks:
-                i_j=Card(i,j)
-                print(i_j)
-                full_deck.append(i_j)
-        print(full_deck)
-    
-    def __str__(self):
-        return Hello
 
 
-#print(suits)
-#print(ranks)
 
-c1=Card(suits, ranks)
+new_deck=Deck()
 
+#new_deck.shuffle()
+#print(new_deck.all_cards[-1])
 
-#print(c1)
-
-#dddd=Deck()
-#dddd.build_deck(suits, ranks)

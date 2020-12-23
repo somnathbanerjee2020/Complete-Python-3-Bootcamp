@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d19e6785-8bfe-4d70-ae29-cbe0a7d6aca5" name="Default Changelist" comment="" />
+    <list default="true" id="d19e6785-8bfe-4d70-ae29-cbe0a7d6aca5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-Milestone Project - 2/war_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/08-Milestone Project - 2/war_game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-Python Decorators/02-Decorators Homework.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/10-Python Decorators/02-Decorators Homework.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-Python Generators/.ipynb_checkpoints/02-Iterators and Generators Homework-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/11-Python Generators/.ipynb_checkpoints/02-Iterators and Generators Homework-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-Python Generators/02-Iterators and Generators Homework.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/11-Python Generators/02-Iterators and Generators Homework.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-Advanced Python Modules/.ipynb_checkpoints/01-Opening-and-Reading-Files-Folders-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/12-Advanced Python Modules/.ipynb_checkpoints/01-Opening-and-Reading-Files-Folders-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-Advanced Python Modules/01-Opening-and-Reading-Files-Folders.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/12-Advanced Python Modules/01-Opening-and-Reading-Files-Folders.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCode.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCode.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
